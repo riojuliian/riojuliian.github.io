@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rio Julian Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/png/favicon.ico">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/rio-header.png"
+              alt="Rio Julian Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Rio Julian</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hi There, I'm Rio👋</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Welcome to my portfolio page! Here, you'll find a collection of the projects that I've worked on as a Data Scientist. 
+            You can also find my resume by hitting the button below. Enjoy your exploration!
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a target="_blank" href="https://drive.google.com/file/d/1QBN688Bk2fnZOtBobzBybjOl9kbMongZ/view?usp=sharing" class="btn btn--bg">Resume</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a target="_blank" href="https://www.linkedin.com/in/riojuliian/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a target="_blank" href="https://github.com/riojuliian" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a target="_blank" href="https://twitter.com/riojuliian" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/twitter-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/riojuliian/"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! I'm
+                <strong>Rio</strong>
+                and I'm a <strong> Data Scientist </strong> with <strong>+2 years experience</strong> who love to work with data and extracting the valuable insights behind it.
+                I'm a <strong>Computer Engineering</strong> graduate from <strong>Universitas Diponegoro</strong> with <strong>cum laude</strong> GPA (3.67/4.00). As a data scientist, I have strong knowledge in machine learning, data analysis, and data visualization. I also <strong>experienced</strong> in <strong>building machine learning
+                pipeline (MLOps)</strong> on cloud platform environment (particularly Google Cloud Platform) which contains various steps from data collection until the deployment and monitoring the machine learning model. 
+          
+              </p>
+
+              <p class="about__content-details-para">
+                Currently I'm working at <strong>SG-EDTS</strong>, which is Salim Group subsidiaries that provides <strong>digital technology</strong> 
+                and <strong>analytics consultancy</strong>, particularly for Salim Group companies. You can find their website <strong><a target="_blank" href="https://sg-edts.com/">here.</a></strong>
+              </p>
+
+              <p class="about__content-details-para">
+                Personally, I love to learn new things and share good things with enthusiasm and a high ambition to achieve goals. 
+                Feel free to
+                <strong>contact</strong> me here.
+              </p>
+            </div>
+            <a href="./index.html#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Technical Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">Tableau</div>
+              <div class="skills__skill">Google Data Studio</div>
+              <div class="skills__skill">Pandas</div>
+              <div class="skills__skill">Numpy</div>
+              <div class="skills__skill">Scikit Learn</div>
+              <div class="skills__skill">Tensorflow</div>
+              <div class="skills__skill">Keras</div>
+              <div class="skills__skill">Docker</div>
+              <div class="skills__skill">Kubeflow</div>
+              <div class="skills__skill">API</div>
+              <div class="skills__skill">Google Cloud Platform</div>
+              <div class="skills__skill">AWS Sagemaker </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            As a data scientist, I've worked on various projects, whether it is descriptive or predictive analytics. Because currently I work in 
+            SG-EDTS, which is a Salim Group Data and IT consultant company, I have experienced to handle project from various Salim Group company. 
+            Below are the projects I've worked on so far:
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/klik_reco.PNG"
+                alt="Product Recommendation"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Klik Indomaret - Product Recommendation System</h3>
+              <p class="projects__row-content-desc">
+                Klik Indomaret is an E-Commerce which sells more than 5.000 unique products. I've helped them to 
+                create personalize product recommendation based on their customer purchase behaviour. In this project,
+                I was responsible to handle various task, that is:
+                <br>
+                • Designed and developed machine learning pipeline with Vertex Pipeline (Kubeflow Based)
+                <br>
+                • Initiated to used new cloud technology (related to ML Services)
+                <br>
+                • Experimented with different algorithm such as: SVD, Autoencoder-based model, Word2Vec, Transformer
+                <br>
+                • Did Feature engineering, data processing and evaluated the product recommendation model with various metrics (Precision, Recall, NDCG)
+                <br>
+                • Tested the API with JMeter (concurrent request simulation)
+              </p>
+
+              <h1>Technology Used:</h1>
+              <br>
+              <div class="skills">
+                <div class="skills__skill_tech_used">Google Vertex AI</div>
+                <div class="skills__skill_tech_used">Google Cloud BigQuery</div>
+                <div class="skills__skill_tech_used">Google Cloud Storage</div>
+                <div class="skills__skill_tech_used">Google Cloud Run</div>
+                <div class="skills__skill_tech_used">Google Cloud Build</div>
+                <div class="skills__skill_tech_used">Google Cloud Endpoints</div>
+                <div class="skills__skill_tech_used">Google Cloud Container/Artifacts Registry</div>
+                <div class="skills__skill_tech_used">Kubeflow Pipeline</div>
+                <div class="skills__skill_tech_used">Docker</div>
+                <div class="skills__skill_tech_used">Tensorflow</div>
+                <div class="skills__skill_tech_used">Keras</div>
+                <div class="skills__skill_tech_used">Pytorch</div>
+                <div class="skills__skill_tech_used">Pandas</div>
+                <div class="skills__skill_tech_used">FastAPI</div>
+              </div>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/gurih_ktp_detection.PNG"
+                alt="KTP Detection"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Gurih - KTP Image Classification & Localization</h3>
+              <p class="projects__row-content-desc">
+                Gurih is an application that can be used by minyak curah seller to make transactions and controlling goods easier. 
+                With limited supplies, the government requires that buyer should use their ID Card (KTP Images) to bought the Minyak Curah, but sometimes
+                the buyer or seller ignore that regulation. To overcome that problem, me and my team create a machine learning model that could classify
+                ID Card (Real, Photocopied & None) and could detect them. In this project,
+                I was responsible to handle some task, such as:
+                <br>
+                • Developed ID Card detection model using pre-trained FasterRCNN Inception ResNet V2 model 
+                <br>
+                • Handled prediction pipeline, developing and integrating various API with Google Cloud Run
+                <br>
+                • Evaluated the performance of the model 
+                <br>
+                • Explored the ID Card feature analysis to alleviate performance of the classification model           
+              </p>
+              <h1>Technology Used:</h1>
+              <br>
+              <div class="skills">
+                <div class="skills__skill_tech_used">Google Vertex AI</div>
+                <div class="skills__skill_tech_used">Google Cloud Storage</div>
+                <div class="skills__skill_tech_used">Google Cloud Build</div>
+                <div class="skills__skill_tech_used">Google Cloud Run</div>
+                <div class="skills__skill_tech_used">Docker</div>
+                <div class="skills__skill_tech_used">Tensorflow</div>
+                <div class="skills__skill_tech_used">Keras</div>
+                <div class="skills__skill_tech_used">Pandas</div>
+                <div class="skills__skill_tech_used">OpenCV</div>
+                <div class="skills__skill_tech_used">FastAPI</div>
+              </div>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/idg_cluster.PNG"
+                alt="Cluster Analysis"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Indogrosir - Customer Clustering Analysis</h3>
+              <p class="projects__row-content-desc">
+                Indogrosir is a retail company in the modern wholesale retail sector that 
+                provides basic daily needs. With more than 200K users across Indonesia, me and my team initiate to
+                conduct clustering analysis to find their customer hidden characteristics. In this project,
+                I was responsible to:
+                <br>
+                • Created user and item catalog, and collect various features related to user and item
+                <br>
+                • Experimented to create cluster with KMeans Algorithm
+                <br>
+                • Evaluated the clustering model results
+                <br>
+                • Provided analysis deck and delivered the results to the stakeholders
+              </p>
+              <h1>Technology Used:</h1>
+              <br>
+              <div class="skills">
+                <div class="skills__skill_tech_used">Google Vertex AI</div>
+                <div class="skills__skill_tech_used">Google Cloud BigQuery</div>
+                <div class="skills__skill_tech_used">Google Cloud Scheduler</div>
+                <div class="skills__skill_tech_used">Scikit Learn</div>
+                <div class="skills__skill_tech_used">Pandas</div>
+                <div class="skills__skill_tech_used">Numpy</div>
+                <div class="skills__skill_tech_used">Seaborn</div>
+              </div>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/nlp-news-headlines-classficiation.png"
+                alt="Text Classification"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">EDTS (Research Project) - News Headlines Classification</h3>
+              <p class="projects__row-content-desc">
+                News Headlines Classification Apps is an apps that could classify the Indonesian news headlines. 
+                This project was a part of my data management trainee main task in EDTS. I was with my data engineer friend
+                when I built this apps, he handled the data collection via scraping and deployment things and I handled some tasks such as:
+                <br>
+                • Developed text classification model with LSTM and Word2Vec (as a feature extractor) algorithm
+                <br>
+                • Evaluated the performance of the model with confusion matrix
+                <br>
+                • Handled the front-end part, implemented visual and interactive elements on the web apps with HTML and CSS Bootstrap
+              </p>
+              <h1>Technology Used:</h1>
+              <br>
+              <div class="skills">
+                <div class="skills__skill_tech_used">Google Colab</div>
+                <div class="skills__skill_tech_used">NLTK</div>
+                <div class="skills__skill_tech_used">Word2Vec</div>
+                <div class="skills__skill_tech_used">Tensorflow</div>
+                <div class="skills__skill_tech_used">Keras</div>
+                <div class="skills__skill_tech_used">Pandas</div>
+                <div class="skills__skill_tech_used">Numpy</div>
+                <div class="skills__skill_tech_used">FastAPI</div>
+                <div class="skills__skill_tech_used">HTML</div>
+                <div class="skills__skill_tech_used">CSS</div>
+              </div>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img
+              src="./assets/png/noodle-business-performance.png"
+              alt="Text Classification"
+              class="projects__row-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Indofood CBP - Business Performance Analysis</h3>
+            <p class="projects__row-content-desc">
+              PT Indofood CBP Sukses Makmur Tbk is a leading Indonesian consumer branded products company, 
+              specializing in a diverse range of food and beverage categories. This is my descriptive analytics project 
+              which should provided the monthly business performance for Indofood CBP principles/brand. 
+              Whereas my scope in this project are:
+              <br>
+              • Prepared the datamart which collected from the dataset in Google BigQuery
+              <br>
+              • Analyzed data with Microsoft Excel and Tableau, and visualize it with Thinkcell
+              <br>
+              • Created query and pivot table frameworks which could made analysis more easier (semi-automate)
+              <br>
+              • Helped team to provide the business performance deck for 9 principle (Noodle, Nutrition, Beverage, etc.) 
+            </p>
+            <h1>Technology Used:</h1>
+            <br>
+            <div class="skills">
+              <div class="skills__skill_tech_used">Google BigQuery</div>
+              <div class="skills__skill_tech_used">Tableau</div>
+              <div class="skills__skill_tech_used">Thinkcell</div>
+              <div class="skills__skill_tech_used">Microsoft Excel</div>
+              <div class="skills__skill_tech_used">Microsoft Powerpoint</div>
+            </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Open for new opportunities in Data or Machine Learning Field. 
+            For any further Information, please contact me below:
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="https://formspree.io/f/meqbegoz" method="POST" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="email"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/riojuliian/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/riojuliian">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/riojuliian">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/riojuliian/">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Rio Julian Azis Pratama</h4>
+            <p class="main-footer__short-desc">
+              A person who loves to learn and passionate about data and machine learning
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2023. Made by
+          <a rel="noreferrer" target="_blank" href="#"
+            >Rio Julian Azis Pratama</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
