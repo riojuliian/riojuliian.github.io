@@ -91,7 +91,7 @@
           </p>
         </div>
         <div class="home-hero__cta">
-          <a target="_blank" href="https://drive.google.com/file/d/19Gc9j9-_C1md9LSh2WvzQQPQrmyWXb4D/view?usp=sharing" class="btn btn--bg">Resume</a>
+          <a target="_blank" href="https://drive.google.com/file/d/1IhxqD_JwcTMHq5HvbGOiy5fBVEGCxJLp/view?usp=sharing" class="btn btn--bg">Resume</a>
         </div>
       </div>
       <div class="home-hero__socials">
@@ -152,10 +152,15 @@
               <p class="about__content-details-para">
                 Hey! I'm
                 <strong>Rio</strong>
-                and I'm a <strong> Data Scientist </strong> with <strong>+2 years experience</strong> who love to work with data and extracting the valuable insights behind it.
-                I'm a <strong>Computer Engineering</strong> graduate from <strong>Universitas Diponegoro</strong> with <strong>cum laude</strong> GPA (3.67/4.00). As a data scientist, I have strong knowledge in machine learning, data analysis, and data visualization. I also <strong>experienced</strong> in <strong>building machine learning
-                pipeline (MLOps)</strong> on cloud platform environment (particularly Google Cloud Platform) which contains various steps from data collection until the deployment and monitoring the machine learning model. 
+                and I'm a <strong> Data Scientist </strong> with <strong>3 years experience</strong> who love to work with data and extracting the valuable insights behind it.
+                I'm a <strong>Computer Engineering</strong> graduate from <strong>Universitas Diponegoro</strong> with <strong>cum laude</strong> GPA (3.67/4.00). As a data scientist, I have strong knowledge in machine learning, generative AI, data analysis, and data visualization. 
           
+              </p>
+
+              <p class="about__content-details-para">
+                I have <strong>experience</strong> in <strong>productionizing machine learning models</strong> on cloud platform environment (particularly Google Cloud Platform) using MLOps lifecycle which contains various steps from data collection, model deployment and monitoring the deployed machine learning model.
+                Other than that, I also have experience in <strong>building generative AI application</strong> using state-of-the-art large language models and their supporting services or frameworks.
+
               </p>
 
               <p class="about__content-details-para">
@@ -189,7 +194,11 @@
               <div class="skills__skill">Kubeflow</div>
               <div class="skills__skill">API</div>
               <div class="skills__skill">Google Cloud Platform</div>
-              <div class="skills__skill">AWS Sagemaker </div>
+              <div class="skills__skill">Azure Machine Learning Platform</div>
+              <div class="skills__skill">AWS Sagemaker</div>
+              <div class="skills__skill">LangChain</div>
+              <div class="skills__skill">Prompt Engineering</div>
+              <div class="skills__skill">Chroma DB</div>
             </div>
           </div>
         </div>
@@ -220,7 +229,7 @@
               <h3 class="projects__row-content-title">Klik Indomaret - Product Recommendation System</h3>
               <p class="projects__row-content-desc">
                 Klik Indomaret is an E-Commerce which sells more than 5.000 unique products. I've helped them to 
-                create personalize product recommendation based on their customer purchase behaviour. In this project,
+                create <strong>personalize product recommendation</strong> based on their customer purchase behaviour. In this project,
                 I was responsible to handle various task, that is:
                 <br>
                 • Designed and developed machine learning pipeline with Vertex Pipeline (Kubeflow Based)
@@ -296,6 +305,48 @@
               </div>
             </div>
           </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/chatbot_project.png"
+                alt="Generative AI Application"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Various Clients - Chatbot Powered by Generative AI</h3>
+              <p class="projects__row-content-desc">
+               We build chatbot application powered by state-of-the-art large language models such as ChatGPT 4 and Gemini Pro for our various clients such as Klik Indomaret, Toyota Astra Motors and Kalbe Consumer Health.
+               The <strong>use case</strong> of our developed chatbot can vary depending on the intended purpose such as: <strong>customer support agent, data analysis agent (table or chart image-based) and information retrieval agent with human-like conversation.</strong>
+                In this project, I was responsible to handle some task, such as:
+                <br>
+                • Developed chatbot agent, created conversational flow and their intents with Dialogflow CX
+                <br>
+                • Integrated the chatbot agent with large language models (Google Gen AI and Azure Open AI ChatGPT) via cloud function webhook
+                <br>
+                • Performed the optimal prompt and model parameter for various use case of our chatbot (prompt engineering)
+                <br>
+                • Build the multi-modal retrieval augmented generation (RAG) which consists of text, table and image data using LangChain framework, Chroma DB and Vertex Search AI
+                <br>
+                • Developed the UI chatbot web-apps application using JavaScript and CSS bootstrap framework and deployed it with Google App Engine
+              </p>
+              <h1>Technology Used:</h1>
+              <br>
+              <div class="skills">
+                <div class="skills__skill_tech_used">Google Dialogflow CX</div>
+                <div class="skills__skill_tech_used">Google Generative AI: Gemini Pro, Text-Bison, Text-Unicorn</div>
+                <div class="skills__skill_tech_used">Azure Open AI ChatGPT 3.5 & 4</div>
+                <div class="skills__skill_tech_used">Google Vertex Search AI</div>
+                <div class="skills__skill_tech_used">Google Cloud Function</div>
+                <div class="skills__skill_tech_used">Google App Engine</div>
+                <div class="skills__skill_tech_used">LangChain</div>
+                <div class="skills__skill_tech_used">Chroma DB (Vector Database)</div>
+              </div>
+            </div>
+          </div>
+
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
